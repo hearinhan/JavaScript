@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 57px;
+    background-color: rgb(88, 140, 236);
+}
+header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+nav {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 25px 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.nav_div {
+    display: flex;
+    flex-direction: column;
+}
+.nav_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #3d3d3d;
+}
+.nav_description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #aaaaaa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav_serchBox {
+    padding: 15px;
+    border: 1px solid #e2e2e2;
+    font-size: 1.1rem;
+}
+
+main {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;  
+}
+.plofile {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 25px 20px;
+}
+.plofile img {
+    height: 270px;
+}
+.profile_items {
+    display: flex;
+    flex-direction: row;
+}
+.profile_infos {
+    margin-left: 20px;
+}
